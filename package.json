@@ -1,0 +1,24 @@
+{
+  "name": "node_crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lecture": "node demo.js lecture 1000",
+    "lecture2": "node demo.2.js lecture 2000",
+    "lecture3": "node demo.3.js lecture 3000",
+    "lecture4": "node demo.4.js lecture 4000",
+    "lecture5": "node demo.5.js lecture 5000",
+    "data": "node demo.js data 58",
+    "news": "node demo.news.js news 310",
+    "run-lecture2-3": "npm run lecture2 & npm run lecture3",
+    "run-lecture4-5": "npm run lecture4 & npm run lecture5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "phantom": "^6.0.3"
+  }
+}
